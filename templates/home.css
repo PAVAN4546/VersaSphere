@@ -7,7 +7,7 @@
 
 
 .bg-container {
-    background-color: #ffffff;
+    background-color: #f1f1f1;
 
 
 }
@@ -17,9 +17,10 @@
 @media(orientation:portrait) {
     .bg-sub-container {
         background-color: #000000;
-        height: 80px;
+        height: 170px;
         display: flex;
         justify-content: space-between; 
+
     }
 
 
@@ -29,22 +30,21 @@
         display: flex;
         justify-content: center;
         align-items: center
-        display : none;
+
 
     }
 
     .nav-logo {
-        height: 66px;
-        width: 66px;
-        margin-bottom:3px;
+        height: 136px;
+        width: 146px;
+        margin:15px ;
+        margin-bottom:15px;
 
     }
 
     .nav-logo-text {
-        font-size: 20px;
-        margin-top: 18px ;
-        font-family: "Cursive";
-        font-weight: bold;
+        font-size: 60px;
+        margin-top: 18px;
     }
 
 
@@ -91,8 +91,8 @@
 
 
     .image_1{
-        height:60px;
-        width: 150px;
+        height:150px;
+        width: 280px;
 
     }
 
@@ -101,12 +101,15 @@
         text-align: center;
         align-self: center;
         justify-content:center;
-        background-color: #f6f6f6;
+        background-color: #ffffff; 
         margin-top: 10px;
         font-size: 14px;
         box-shadow:10px 12px 15px;
-        width: 400px;
+        width: 600px;
         margin-bottom: 22px ;
+        border-radius: 15px;
+        height: 200px;
+
 
     }
 
@@ -114,7 +117,10 @@
         display: flex;
         flex-direction: column;
         text-align: center; 
-        margin: 10px    
+        justify-content: center;
+        margin: 10px  
+        width: 50%; 
+
 
     }
 
@@ -133,22 +139,32 @@
 
 
     .text-font-title{
-        font-size: 16px;
+        font-size:35px;
         font-weight: bold;
         color: #787878;
         text-align: center;
-        width: 100%;
         justify-content: center;
         display: flex;
+
         align-self: center;
         text-align: center;
     }
 
-    .text-font{
-        font-family: "Arial";
+
+    .text-font-title___{
+        font-size:40px;
         font-weight: bold;
-        font-size: 18px;
+        color: #787878;
+        
+
+    }
+
+    .text-font{
+        margin: 10px;
+        font-weight: bold;
+        font-size:55px;
         text-align: center;
+
 
     }    
 
@@ -162,7 +178,7 @@
     }
 
     .box3_1_sub{
-        background-color:   ;
+    
         text-decoration: none;
         color: black;
         display: flex;
@@ -171,13 +187,37 @@
         text-align: center;
         align-self: center;
         justify-content:center;
-        background-color: #f6f6f6;
+        background-color: #ffffff;
         margin-top: 10px;
         box-shadow:10px 12px 15px black;
         flex-wrap: wrap;
         height: 130px;
         width: 170px;
+        border-radius: 15px;
 
+        border-style: solid;
+        border-left-width:8px;
+        border-left-color: black;
+        border-top: none;   
+        border-bottom: none;
+        border-right: none;
+    }
+
+    .menu-box1{
+        box-sizing: content-box  ;
+        background-color:;
+        border-radius:10px;
+        padding:5px;
+        font-size: 24px;
+        margin:10px;
+        border-style: 16px solid;
+        border-left-width:18px;
+        border-left-color: black;
+        border-top: none;   
+        border-bottom: none;
+        border-right: none;
+        height: 45px;
+        color: black;
     }
 
     .box3_p{
@@ -206,6 +246,7 @@
         background-color: #b9ecec;
         margin-top: 35px;
         color: #048f8f;
+        font-size: 45px;
     }
 
 
@@ -223,11 +264,12 @@
     .box-4_1{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-self: center;
-        text-align: left  ;
-        width:400px;
-        margin:20px;
+        flex-wrap: wrap;
+        margin:10px;
+    }
+
+    .center{
+        text-align: center;
     }
 
 
@@ -248,6 +290,7 @@
         width: 130px;
         margin-bottom:18px;
         padding: 5px;
+        display: none;
     }
 
     .box-5{
@@ -263,11 +306,8 @@
         display: flex;
 
         flex-wrap: wrap;
-      justify-content: center;
-        text-align: center;
-        align-items: center;
+        justify-content: center;
 
-        text-align: left;
         font-size: 15px;
     }
 
@@ -275,6 +315,8 @@
         display: flex;
         flex-direction: column;
         width: 400px;
+        margin: 15px;
+        text-align: left;
     }
 
 
@@ -288,9 +330,10 @@
 
     .query-text-home-page {
         margin-bottom:10px;
-        font-family: "Cursive";
-        font-weight: bold;    
-        text-align: center;  
+        font-weight:bold;    
+        text-align: center; 
+        font-size:50px; 
+        margin:15px;
     }
 
     .home-page-logo {
@@ -301,11 +344,11 @@
     
 
     .bar {
-        font-size: 30px;
+        font-size: 80px;
         color: #ffffff;
         justify-content:flex-end;
         align-self: flex-end;
-        margin-left:170px;        
+        margin-left:220px;        
     }
 
     .main-nav-bar {
@@ -370,12 +413,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size:35px;
     }
 
     .social-Media-icons{
-        font-size: 30px;
+        font-size:65px;
         color: #a4a4a4;
-        margin: 10px        ;
+        margin: 10px;
     }
 
 }
@@ -410,9 +454,8 @@
 
     .nav-logo-text {
         font-size: 28px ;
-        margin-top: 10px ;
-        font-family: "Cursive";
-        font-weight: bold;
+        margin-top: 20px ;
+        font-family: Cursive;
     }
 
     .nav-icon-color{
@@ -464,7 +507,7 @@
     }
     .image_1{
         height:80px;
-        width: 250px;
+        width: 260px;
         margin: 10px    ;
 
     }
@@ -472,15 +515,17 @@
     .query-text-home-page {
         text-align: center;
         margin-top: 40px;
-        font-family: "Cursive";
-        font-weight: bold;
+        font-weight:bold;
     }
     .home-page-box2 {
         display: flex;
         text-align: center;
         justify-content: safe center;
-        background-color: #f6f6f6;
+        background-color: #ffffff;
         margin-top: 10px;
+        width: 50%;
+        align-self: center;
+        border-radius: 15px;
         box-shadow:10px 12px 15px;
 
     }
@@ -508,30 +553,28 @@
 
 
     .text-font-title{
-        font-size: 16px;
+        font-size:20px;
         font-weight: bold;
         color: #787878;
         text-align: center;
     }
 
     .text-font{
-        font-family: "monospace";
-        font-weight: bold;
-        font-size: 18px;
+        font-weight:bold;
+        font-size: 26px;
 
     }    
 
     .home-page-box3_1 {
         display: flex;
         justify-content:center;
-        text-align: center;
-        overflow-x:scroll;
-        flex-wrap: wrap;
+        text-align:center;
+        flex-wrap:wrap;
 
     }
 
     .box3_1_sub{
-        background-color:   ;
+        border-radius: 15px ;
         text-decoration: none;
         color: black;
         display: flex;
@@ -540,12 +583,20 @@
         text-align: center;
         align-self: center;
         justify-content:center;
-        background-color: #f6f6f6;
+        background-color: #ffffff;
         margin-top: 10px;
         box-shadow:10px 12px 15px black;
         flex-wrap: wrap;
         height: 130px;
         width: 170px;
+        font-size: 24px;
+
+        border-style: solid;
+        border-left-width:8px;
+        border-left-color: black;
+        border-top: none;   
+        border-bottom: none;
+        border-right: none;
 
     }
 
@@ -565,7 +616,7 @@
 
 
     .box-content{
-        font-size: 20px;
+        font-size: 24px;
         padding: 2px;
         padding-top: 22px;
         text-align: center;
@@ -578,6 +629,7 @@
         background-color: #b9ecec;
         margin-top: 35px;
         color: #048f8f;
+        font-size: 24px ;
     }
 
 
@@ -641,11 +693,18 @@
 
     .box-5_1_1{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         width: 400px;
+        margin: 20px;
     }
 
+    .text-font-title___{
+        font-size:20px;
+        font-weight: bold;
+        color: #787878;
+        
 
+    }
 
 
 
@@ -656,6 +715,14 @@
 
     }
 
+    .query-text-home-page {
+        margin-bottom:10px;
+        font-family: "Cursive";
+        font-weight: bold;    
+        text-align: center; 
+        font-size:50px; 
+        margin:15px;
+    }
 
 
     .home-page-logo {
@@ -689,10 +756,13 @@
     }
 
     .social-Media-icons{
-        font-size: 30px;
+        font-size:40px;
         color: #a4a4a4;
         margin: 10px        ;
     }
 
+    .description-text{
+        font-size:16px;
+    }
 
 }
